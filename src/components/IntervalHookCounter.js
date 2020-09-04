@@ -15,7 +15,7 @@ function IntervalHookCounter() {
         return () => {
             clearInterval(interval)
         }
-    },[count])
+    },[count])``
     // kalo mau intervalnya cuma sekali aja di jalankan kita buat parameter keduanya dengabn empty array
 
 
